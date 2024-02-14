@@ -1,0 +1,21 @@
+.card{
+  grid-column: 4 span;
+
+  &__img{
+    height: 216px;
+    border-radius: 8px;
+
+  }
+  &__id{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  &__btn{
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 8px;
+  }
+}

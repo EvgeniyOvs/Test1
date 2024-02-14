@@ -1,0 +1,16 @@
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  @media all and (min-width: 769px) and (max-width: 1024px) {
+      grid-template-columns: repeat(9, 1fr);
+  }
+  @media all and (min-width: 526px) and (max-width: 769px) {
+      grid-template-columns: repeat(6, 1fr);
+  }
+  @media all and (min-width: 320px) and (max-width: 525px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
